@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MathClass7Theme2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/toTasksMath73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Теория прочитана! К задачам" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Математическая модель — это способ описания реальной жизненной ситуации (задачи) с помощью математического языка."
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Пусть в трёх зоопарках есть тигры и львы. В первом зоопарке 14 тигров и 12 львов, во втором зоопарке 11 тигров и 11 львов, в третьем зоопарке 8 тигров и 17 львов." />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Сколько всего тигров и львов в первом зоопарке? В первом зоопарке всего 14+12=26 тигров и львов."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Сколько всего тигров и львов во втором зоопарке? Во втором зоопарке всего 11+11=22 тигра и льва."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Сколько всего тигров и львов в третьем зоопарке? В третьем зоопарке всего 8+17=25 тигров и львов."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Пример"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Первый этап. Составление математической модели. Была введена переменная x, и текст задачи переведён на математический язык, т. е. была составлена математическая модель задачи в виде уравнения" />
+
+            <ru.noties.jlatexmath.JLatexMathView
+                android:id="@+id/j_latex_math_view12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="16dip"
+                app:jlmv_alignHorizontal="center"
+                app:jlmv_alignVertical="center"
+                app:jlmv_textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Второй этап. Работа с математической моделью. Здесь было решено уравнение до простого ответа x=4" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Третий этап. Формулировка ответа на вопрос задачи. Используя полученное на втором этапе решение, ответили на вопрос задачи. " />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Такую математическую модель называют алгебраической моделью."
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/img" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="А это - графическая модель"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Математические модели задаются:\n 1) словесно — описываются словами;\n 2) алгебраически — в виде уравнений, неравенств или систем;\n 3) графически — в виде графиков;\n 4) геометрически — с помощью геометрических фигур."
+                android:textAlignment="textStart" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
