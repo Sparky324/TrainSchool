@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MathClass7Theme2Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/toTasksMath72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onToTasksClick"
+                android:text="Теория прочитана! К задачам" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Математический язык используется в различных науках: физике, химии, экономике и т. д. В каждой из этих наук есть определённые законы и правила, которые формулируются на обычном языке, а потом переводятся на математический." />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="С помощью математического языка переводим обычный язык в математические термины, уравнения, неравенства и т. д. Математический язык использует числа, буквы, знаки арифметических действий, иные символы для записи математических предложений."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Правило «От перемены мест множителей произведение не меняется» можно записать с помощью математического языка так:"
+                android:textAlignment="center" />
+
+            <ru.noties.jlatexmath.JLatexMathView
+                android:id="@+id/j_latex_math_view10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="16dip"
+                app:jlmv_alignHorizontal="center"
+                app:jlmv_alignVertical="center"
+                app:jlmv_textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Переведём, наоборот, с математического языка на обычный."
+                android:textAlignment="center" />
+
+            <ru.noties.jlatexmath.JLatexMathView
+                android:id="@+id/j_latex_math_view11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="16dip"
+                app:jlmv_alignHorizontal="center"
+                app:jlmv_alignVertical="center"
+                app:jlmv_textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Означает: «Для умножения двух обыкновенных дробей нужно перемножить их числители, перемножить их знаменатели»"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Формулы, выражения записываются, поэтому являются письменной речью математического языка. "
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Устная речь в математическом языке подразумевает использование особых терминов (множитель, уравнение, абсцисса, координатная плоскость и др.) и всевозможных математических утверждений, которые выражаются словами."
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
