@@ -64,6 +64,9 @@ public class RVAdapterMath7 extends RecyclerView.Adapter<RVAdapterMath7.ViewHold
                 case 2:
                     intent = new Intent(mContext, MathClass7Theme3Activity.class);
                     break;
+                case 3:
+                    intent = new Intent(mContext, MathClass7Theme4Activity.class);
+                    break;
                 default:
                     intent = null;
                     break;
