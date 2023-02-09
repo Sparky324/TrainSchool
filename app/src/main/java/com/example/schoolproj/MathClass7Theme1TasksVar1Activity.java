@@ -21,9 +21,9 @@ public class MathClass7Theme1TasksVar1Activity extends AppCompatActivity impleme
 
         ArrayList<String> subjects = new ArrayList<>();
         subjects.add("1. Определение суммы и разности чисел");
-        subjects.add("2. Задача");
-        subjects.add("3. Задача");
-        subjects.add("4. Задача");
+        subjects.add("2. Выполни действия (десятичные дроби)");
+        subjects.add("3. Вычисли рациональным способом");
+        subjects.add("4. Значение алгебраического выражения");
         subjects.add("5. Задача");
 
         RecyclerView recyclerView = findViewById(R.id.rvMathClass7Theme1Var1);

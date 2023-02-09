@@ -56,7 +56,19 @@ public class RVAdapterMath7Theme1Var1 extends RecyclerView.Adapter<RVAdapterMath
             final Intent intent;
             switch (getAdapterPosition()) {
                 case 0:
-                    intent = new Intent(mContext, MathClass7Theme1Var1Task1.class);
+                    intent = new Intent(mContext, MathClass7Theme1Var1Task1Activity.class);
+                    break;
+                case 1:
+                    intent = new Intent(mContext, MathClass7Theme1Var1Task2Activity.class);
+                    break;
+                case 2:
+                    intent = new Intent(mContext, MathClass7Theme1Var1Task3Activity.class);
+                    break;
+                case 3:
+                    intent = new Intent(mContext, MathClass7Theme1Var1Task4Activity.class);
+                    break;
+                case 4:
+                    intent = new Intent(mContext, MathClass7Theme1Var1Task5Activity.class);
                     break;
                 default:
                     intent = null;

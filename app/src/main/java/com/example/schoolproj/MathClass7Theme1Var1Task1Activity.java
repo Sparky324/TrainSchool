@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import ru.noties.jlatexmath.JLatexMathView;
 
-public class MathClass7Theme1Var1Task1 extends AppCompatActivity {
+public class MathClass7Theme1Var1Task1Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,7 @@ public class MathClass7Theme1Var1Task1 extends AppCompatActivity {
     }
 
     public void onAnswerClick(View view) {
-        EditText editText = findViewById(R.id.answerMathClass7Theme1Var1Task1);
+        EditText editText = findViewById(R.id.answer);
         String answer = editText.getText().toString();
         if (answer.equals("17.4") || answer.equals("17,4")) {
             Toast.makeText(this, "Верно!!", Toast.LENGTH_SHORT).show();
