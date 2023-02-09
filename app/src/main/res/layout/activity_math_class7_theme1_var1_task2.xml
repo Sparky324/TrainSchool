@@ -52,15 +52,42 @@
         android:id="@+id/saveAnswer"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="45dp"
-        android:layout_marginEnd="164dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="15dp"
         android:layout_marginBottom="88dp"
         android:onClick="onAnswerClick"
         android:text="Ответить!"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/next"
+        app:layout_constraintStart_toEndOf="@+id/previous" />
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="52dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="88dp"
+        android:onClick="onNextClick"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/saveAnswer"
+        app:layout_constraintTop_toBottomOf="@+id/answer"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/right_arrow" />
+
+    <ImageButton
+        android:id="@+id/previous"
+        android:layout_width="52dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="88dp"
+        android:onClick="onPrevClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/saveAnswer"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/answer" />
+        app:srcCompat="@drawable/left_arrow" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

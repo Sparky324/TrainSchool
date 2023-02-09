@@ -2,6 +2,7 @@ package com.example.schoolproj;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -31,5 +32,11 @@ public class MathClass7Theme1Var1Task5Activity extends AppCompatActivity {
             Toast.makeText(this, "К сожалению, неверно:(", Toast.LENGTH_SHORT).show();
             editText.setTextColor(Color.RED);
         }
+    }
+
+    public void onPrevClick(View view) {
+        Intent intent = new Intent(MathClass7Theme1Var1Task5Activity.this, MathClass7Theme1Var1Task4Activity.class);
+        startActivity(intent);
+        finish();
     }
 }
