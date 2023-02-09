@@ -24,7 +24,7 @@ public class MathClass7Theme1TasksVar1Activity extends AppCompatActivity impleme
         subjects.add("2. Выполни действия (десятичные дроби)");
         subjects.add("3. Вычисли рациональным способом");
         subjects.add("4. Значение алгебраического выражения");
-        subjects.add("5. Задача");
+        subjects.add("5. Имеет ли смысл выражение?");
 
         RecyclerView recyclerView = findViewById(R.id.rvMathClass7Theme1Var1);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
