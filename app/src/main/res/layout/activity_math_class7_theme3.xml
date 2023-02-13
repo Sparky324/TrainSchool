@@ -19,6 +19,7 @@
                 android:id="@+id/toTasksMath73"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="onToTasksMath73Click"
                 android:text="Теория прочитана! К задачам" />
 
             <TextView

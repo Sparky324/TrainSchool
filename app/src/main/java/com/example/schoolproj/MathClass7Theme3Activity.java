@@ -2,7 +2,9 @@ package com.example.schoolproj;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import ru.noties.jlatexmath.JLatexMathView;
 
@@ -15,5 +17,10 @@ public class MathClass7Theme3Activity extends AppCompatActivity {
 
         JLatexMathView latexMathView = findViewById(R.id.j_latex_math_view12);
         latexMathView.setLatex("(4x−5)−(x+5)=2");
+    }
+
+    public void onToTasksMath73Click(View view) {
+        Intent intent = new Intent(MathClass7Theme3Activity.this, MathClass7Theme3TasksActivity.class);
+        startActivity(intent);
     }
 }
