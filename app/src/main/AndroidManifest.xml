@@ -15,6 +15,48 @@
         tools:replace="android:appComponentFactory"
         tools:targetApi="31">
         <activity
+            android:name=".Math.Class7.Theme2.Var1.MathClass7Theme2Var1Task3Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Math.Class7.Theme2.Var1.MathClass7Theme2Var1Task2Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Math.Class7.Theme2.Var1.MathClass7Theme2Var1Task1Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Math.Class7.Theme2.Var3.MathClass7Theme2TasksVar3Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Math.Class7.Theme2.Var2.MathClass7Theme2TasksVar2Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Math.Class7.Theme2.Var1.MathClass7Theme2TasksVar1Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Math.Class7.Theme5.Var1.MathClass7Theme5Var1Task1Activity"
             android:exported="false">
             <meta-data

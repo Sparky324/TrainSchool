@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Math.Class7.Theme2.Var1.MathClass7Theme2Var1Task2Activity">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="20dp"
+        android:text="Опиши ситуацию на математическом языке:\nчетырёхзначное число K содержит c тысяч и d десятков. (без пробелов)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/saveAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="88dp"
+        android:onClick="onAnswerClick"
+        android:text="Ответить!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/next"
+        app:layout_constraintStart_toEndOf="@+id/previous" />
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="52dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="88dp"
+        android:onClick="onNextClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/saveAnswer"
+        app:layout_constraintTop_toBottomOf="@+id/answer"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/right_arrow" />
+
+    <ImageButton
+        android:id="@+id/previous"
+        android:layout_width="52dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="88dp"
+        android:onClick="onPrevClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/saveAnswer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/left_arrow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
