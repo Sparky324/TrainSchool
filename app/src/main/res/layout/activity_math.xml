@@ -5,7 +5,7 @@
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MathActivity">
+    tools:context=".Math.MathActivity">
 
     <Button
         android:id="@+id/math_class_7"

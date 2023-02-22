@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MathClass7Theme1Var1Task1Activity">
+    tools:context=".Math.Class7.Theme1.Var1.MathClass7Theme1Var1Task4Activity">
 
     <ru.noties.jlatexmath.JLatexMathView
         android:id="@+id/j_latex_math_view9"

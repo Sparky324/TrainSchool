@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MathClass7Theme4Activity">
+    tools:context=".Math.Class7.Theme4.MathClass7Theme4Activity">
 
     <ScrollView
         android:id="@+id/scrollView4"

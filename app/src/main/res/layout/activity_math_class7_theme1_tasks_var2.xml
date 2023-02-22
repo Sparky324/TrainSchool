@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MathClass7Theme1TasksVar2Activity">
+    tools:context=".Math.Class7.Theme1.Var2.MathClass7Theme1TasksVar2Activity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Math.Class7.Theme5.MathClass7Theme5Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/toTasksMath74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onToTasksClick"
+                android:text="Теория прочитана! К задачам" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Координатной прямой или координатной осью называют прямую m,  на которой обозначены начало отсчёта (точка О), единичный отрезок (отрезок длиной 1) и положительное направление."
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/lin_1" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Например, числу 2 соответствует точка А, которая находится на расстоянии 2  от начальной точки О в положительном направлении. Точка М соответствует числу −2, которая находится на расстоянии 2  от начальной точки О.в отрицательном направлении, т. е. в направлении, противоположном заданному." />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/lin_2" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Обратные утверждения также верны. Если точка N находится  на расстоянии 3,5 в положительном направлении от точки О, то она соответствует числу 3,5.  Если точка М находится  от точки О на расстоянии 2 в отрицательном направлении, то она соответствует числу −2." />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Полученные таким образом числа являются координатами соответствующих точек."
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Записываем: A(2); N(3,5); М(−2); О(0). \nГоворим: точка A имеет координату 2;\n                   точка N имеет координату 3,5;\n                   точка М имеет координату −2;\n                   точка О имеет координату 0." />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Окрестностью точки a называют интервал (a−r; a+r), где r — положительное число, являющееся радиусом окрестности."
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
