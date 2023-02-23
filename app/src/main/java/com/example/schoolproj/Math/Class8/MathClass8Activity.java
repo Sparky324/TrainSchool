@@ -22,8 +22,8 @@ public class MathClass8Activity extends AppCompatActivity implements RVAdapterMa
         setContentView(R.layout.activity_math_class8);
 
         ArrayList<String> subjects = new ArrayList<>();
-        subjects.add("Тема 1");
-        subjects.add("Тема 2");
+        subjects.add("1. Квадратный корень");
+        subjects.add("2. Свойства квадратного корня");
         subjects.add("Тема 3");
         subjects.add("Тема 4");
         subjects.add("Тема 5");
