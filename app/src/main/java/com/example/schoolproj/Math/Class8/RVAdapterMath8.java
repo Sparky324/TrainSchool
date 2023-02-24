@@ -11,6 +11,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.schoolproj.Math.Class8.Theme1.MathClass8Theme1Activity;
 import com.example.schoolproj.Math.Class8.Theme2.MathClass8Theme2Activity;
+import com.example.schoolproj.Math.Class8.Theme2.MathClass8Theme2TasksActivity;
+import com.example.schoolproj.Math.Class8.Theme3.MathClass8Theme3Activity;
 import com.example.schoolproj.R;
 
 import java.util.List;
@@ -64,6 +66,9 @@ public class RVAdapterMath8 extends RecyclerView.Adapter<RVAdapterMath8.ViewHold
                     break;
                 case 1:
                     intent = new Intent(mContext, MathClass8Theme2Activity.class);
+                    break;
+                case 2:
+                    intent = new Intent(mContext, MathClass8Theme3Activity.class);
                     break;
                 default:
                     intent = null;

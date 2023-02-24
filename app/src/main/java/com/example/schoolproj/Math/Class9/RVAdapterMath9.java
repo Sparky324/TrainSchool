@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.schoolproj.Math.Class9.Theme1.MathClass9Theme1Activity;
 import com.example.schoolproj.Math.MathActivity;
 import com.example.schoolproj.R;
 
@@ -59,7 +60,7 @@ public class RVAdapterMath9 extends RecyclerView.Adapter<RVAdapterMath9.ViewHold
             final Intent intent;
             switch (getAdapterPosition()) {
                 case 0:
-                    intent = new Intent(mContext, MathActivity.class);
+                    intent = new Intent(mContext, MathClass9Theme1Activity.class);
                     break;
                 default:
                     intent = null;

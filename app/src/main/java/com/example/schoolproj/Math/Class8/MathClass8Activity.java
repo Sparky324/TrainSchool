@@ -24,9 +24,8 @@ public class MathClass8Activity extends AppCompatActivity implements RVAdapterMa
         ArrayList<String> subjects = new ArrayList<>();
         subjects.add("1. Квадратный корень");
         subjects.add("2. Свойства квадратного корня");
-        subjects.add("Тема 3");
+        subjects.add("3. Формулы сокращенного умножения");
         subjects.add("Тема 4");
-        subjects.add("Тема 5");
 
         RecyclerView recyclerView = findViewById(R.id.Themes2);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

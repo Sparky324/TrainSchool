@@ -22,7 +22,7 @@ public class MathClass9Activity extends AppCompatActivity implements RVAdapterMa
         setContentView(R.layout.activity_math_class9);
 
         ArrayList<String> subjects = new ArrayList<>();
-        subjects.add("Тема 1");
+        subjects.add("1. Арифметическая прогрессия");
         subjects.add("Тема 2");
         subjects.add("Тема 3");
         subjects.add("Тема 4");
