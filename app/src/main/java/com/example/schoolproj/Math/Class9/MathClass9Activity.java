@@ -23,10 +23,8 @@ public class MathClass9Activity extends AppCompatActivity implements RVAdapterMa
 
         ArrayList<String> subjects = new ArrayList<>();
         subjects.add("1. Арифметическая прогрессия");
-        subjects.add("Тема 2");
-        subjects.add("Тема 3");
-        subjects.add("Тема 4");
-        subjects.add("Тема 5");
+        subjects.add("2. Геометрическая прогрессия");
+        subjects.add("3. Системы рациональных неравенств");
 
         RecyclerView recyclerView = findViewById(R.id.Themes3);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
