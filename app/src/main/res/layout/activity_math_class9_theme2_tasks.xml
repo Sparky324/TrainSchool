@@ -6,4 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".Math.Class9.Theme2.MathClass9Theme2TasksActivity">
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="155dp"
+        android:onClick="OnVar1Click"
+        android:text="Вариант 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
