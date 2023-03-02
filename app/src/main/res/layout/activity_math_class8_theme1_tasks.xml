@@ -6,4 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".Math.Class8.Theme1.MathClass8Theme1TasksActivity">
 
+    <Button
+        android:id="@+id/var1mathclass7theme1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="155dp"
+        android:onClick="onVar1MathClass71Click"
+        android:text="Вариант 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
