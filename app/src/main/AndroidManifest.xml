@@ -15,6 +15,20 @@
         tools:replace="android:appComponentFactory"
         tools:targetApi="31">
         <activity
+            android:name=".Math.Class9.Theme3.Var1.MathClass9Theme3Var1Task1Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Math.Class9.Theme3.Var1.MathClass9Theme3TasksVar1Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Math.Class8.Theme4.Var1.MathClass8Theme4Var1Task1Activity"
             android:exported="false">
             <meta-data
