@@ -31,10 +31,6 @@ public class MainActivity extends AppCompatActivity implements MyRecyclerViewAda
         adapter = new MyRecyclerViewAdapter(this, subjects);
         adapter.setClickListener(this);
         recyclerView.setAdapter(adapter);
-
-        //Спрятать полоску сверху
-        //if(getSupportActionBar() != null)
-        //    this.getSupportActionBar().hide();
     }
 
     @Override
